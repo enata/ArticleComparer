@@ -60,6 +60,10 @@
       <Project>{AA1E6F0D-9FDA-414A-8C1A-CCA61772BB51}</Project>
       <Name>ArticleComparer.DocumentFrequencyCollector</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ArticleComparer.TextProcessing\ArticleComparer.TextProcessing.csproj">
+      <Project>{221B545B-9DCA-454E-B99D-53A8BCFD38E3}</Project>
+      <Name>ArticleComparer.TextProcessing</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,6 @@
 ﻿using System;
 using ArticleComparer.Core.Processing;
+using ArticleComparer.TextProcessing;
 using NUnit.Framework;
 using Rhino.Mocks;
 
